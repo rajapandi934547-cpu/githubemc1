@@ -1,0 +1,264 @@
+{
+  "departments": [
+    {
+      "name": "IT",
+      "employees": [
+        {
+          "id": 1,
+          "name": "Arun Kumar",
+          "designation": "Software Developer",
+          "status": "Active"
+        },
+        {
+          "id": 2,
+          "name": "Priya S",
+          "designation": "Frontend Developer",
+          "status": "Active"
+        },
+        {
+          "id": 3,
+          "name": "Karthik R",
+          "designation": "Backend Developer",
+          "status": "Active"
+        },
+        {
+          "id": 4,
+          "name": "Divya M",
+          "designation": "UI Developer",
+          "status": "Inactive"
+        },
+        {
+          "id": 5,
+          "name": "Vignesh P",
+          "designation": "Full Stack Developer",
+          "status": "Active"
+        },
+        {
+          "id": 6,
+          "name": "Keerthana K",
+          "designation": "QA Engineer",
+          "status": "Active"
+        },
+        {
+          "id": 7,
+          "name": "Surya V",
+          "designation": "DevOps Engineer",
+          "status": "Active"
+        },
+        {
+          "id": 8,
+          "name": "Naveen S",
+          "designation": "Software Engineer",
+          "status": "Inactive"
+        },
+        {
+          "id": 9,
+          "name": "Harini R",
+          "designation": "UI/UX Designer",
+          "status": "Active"
+        },
+        {
+          "id": 10,
+          "name": "Pradeep K",
+          "designation": "Technical Lead",
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "name": "HR",
+      "employees": [
+        {
+          "id": 11,
+          "name": "Meena S",
+          "designation": "HR Executive",
+          "status": "Active"
+        },
+        {
+          "id": 12,
+          "name": "Ramesh K",
+          "designation": "HR Manager",
+          "status": "Active"
+        },
+        {
+          "id": 13,
+          "name": "Anitha P",
+          "designation": "Recruiter",
+          "status": "Active"
+        },
+        {
+          "id": 14,
+          "name": "Sathish R",
+          "designation": "HR Executive",
+          "status": "Inactive"
+        },
+        {
+          "id": 15,
+          "name": "Deepa M",
+          "designation": "Talent Acquisition Specialist",
+          "status": "Active"
+        },
+        {
+          "id": 16,
+          "name": "Mohan V",
+          "designation": "HR Coordinator",
+          "status": "Active"
+        },
+        {
+          "id": 17,
+          "name": "Lavanya K",
+          "designation": "Recruiter",
+          "status": "Active"
+        },
+        {
+          "id": 18,
+          "name": "Ganesh S",
+          "designation": "Payroll Executive",
+          "status": "Inactive"
+        },
+        {
+          "id": 19,
+          "name": "Shalini R",
+          "designation": "HR Business Partner",
+          "status": "Active"
+        },
+        {
+          "id": 20,
+          "name": "Ajay P",
+          "designation": "HR Assistant",
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "employees": [
+        {
+          "id": 21,
+          "name": "Rajesh K",
+          "designation": "Accountant",
+          "status": "Active"
+        },
+        {
+          "id": 22,
+          "name": "Swetha M",
+          "designation": "Financial Analyst",
+          "status": "Active"
+        },
+        {
+          "id": 23,
+          "name": "Dinesh R",
+          "designation": "Senior Accountant",
+          "status": "Active"
+        },
+        {
+          "id": 24,
+          "name": "Aarthi S",
+          "designation": "Finance Executive",
+          "status": "Inactive"
+        },
+        {
+          "id": 25,
+          "name": "Manoj P",
+          "designation": "Accounts Executive",
+          "status": "Active"
+        },
+        {
+          "id": 26,
+          "name": "Nithya K",
+          "designation": "Financial Analyst",
+          "status": "Active"
+        },
+        {
+          "id": 27,
+          "name": "Suresh V",
+          "designation": "Finance Manager",
+          "status": "Active"
+        },
+        {
+          "id": 28,
+          "name": "Pavithra R",
+          "designation": "Accountant",
+          "status": "Inactive"
+        },
+        {
+          "id": 29,
+          "name": "Bala M",
+          "designation": "Accounts Assistant",
+          "status": "Active"
+        },
+        {
+          "id": 30,
+          "name": "Divakar S",
+          "designation": "Senior Financial Analyst",
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "name": "Marketing",
+      "employees": [
+        {
+          "id": 31,
+          "name": "Vijay K",
+          "designation": "Marketing Executive",
+          "status": "Active"
+        },
+        {
+          "id": 32,
+          "name": "Anjali S",
+          "designation": "Digital Marketing Executive",
+          "status": "Inactive"
+        },
+        {
+          "id": 33,
+          "name": "Rohit M",
+          "designation": "Marketing Manager",
+          "status": "Active"
+        },
+        {
+          "id": 34,
+          "name": "Swathi R",
+          "designation": "Content Writer",
+          "status": "Active"
+        },
+        {
+          "id": 35,
+          "name": "Lokesh P",
+          "designation": "SEO Specialist",
+          "status": "Active"
+        },
+        {
+          "id": 36,
+          "name": "Monisha K",
+          "designation": "Social Media Executive",
+          "status": "Active"
+        },
+        {
+          "id": 37,
+          "name": "Aravind V",
+          "designation": "Brand Executive",
+          "status": "Inactive"
+        },
+        {
+          "id": 38,
+          "name": "Divya S",
+          "designation": "Content Strategist",
+          "status": "Active"
+        },
+        {
+          "id": 39,
+          "name": "Sanjay R",
+          "designation": "Marketing Analyst",
+          "status": "Active"
+        },
+        {
+          "id": 40,
+          "name": "Reshma P",
+          "designation": "Digital Marketing Manager",
+          "status": "Active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.header {
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: 1px solid #ddd;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:1000;
+}
+
+.header h2 {
+    color: #d32f45;
+    margin-right: 30px;
+}
+
+.header span {
+    font-size: 25px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 220px;
+    height: calc(100vh - 70px);
+    background-color: white;
+    border-right: 1px solid #ddd;
+}
+
+.menu {
+    padding: 17px 20px;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+}
+
+.menu:hover {
+    background-color: #f2f2f2;
+}
+
+.menu.active {
+    background-color: #d52d48;
+    color: white;
+}
+
+.main {
+    margin-left: 220px;
+    padding: 25px;
+}
+
+.main h3 {
+    color: #555;
+    margin-bottom: 0px;
+}
+.employee-boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.box {
+    width: 250px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 3px 8px #aaa;
+}
+
+.box p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.box h2 {
+    font-size: 20px;
+}
+
+.total {
+    background-color: #d606f1;
+}
+
+.absent {
+    background-color: #00ff00;
+}
+
+.notice {
+    background-color: #fc0000;
+}
+.sales{
+    background-color: rgb(13, 13, 161);
+}
+.development{
+    background-color: #00ffd5;
+}
+.testing{
+    background-color: #ff8902;
+}
+.support{
+    background-color: #ffd000;
+}
+.itpresend{
+    background-color: #84f800;
+}
+.hrpresend{
+    background-color: #187ba8;
+}
+.financepresend{
+    background-color: #fd00c6;
+}
+.marketingpresend{
+    background-color: #6cdf00;
+}
+.profile {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    border: 2px solid #ddd;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+
+    margin-left: auto;
+}
