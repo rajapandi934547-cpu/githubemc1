@@ -7,7 +7,12 @@ import {
     getDepartmentDetails
 } from "../service/Employeeservice";
 
+import { useState } from "react";
+import Register from "../register/from";
+
 function Employee() {
+
+    const [showRegister, setShowRegister] = useState(false);
 
     const totalDepartment = getTotalDepartment();
 
@@ -163,7 +168,7 @@ function Employee() {
                 </div>
             </div>
         </>
-    );
+      );
 }
 
 export default Employee;
