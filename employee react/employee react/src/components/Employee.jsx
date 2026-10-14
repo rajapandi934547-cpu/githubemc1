@@ -29,14 +29,15 @@ function Employee() {
             <div className="header">
 
                 <h2>Rednote</h2>
-
                 <span>☰</span>
-
+            <div class="profile">
+                     👨🏻
+             </div>
             </div>
 
             <div className="sidebar">
 
-                <div className="menu active">⌁ &nbsp; Dashboard</div>
+                <button className="menu active" type="button" onClick={() => setShowRegister(true)}> ↪ &nbsp; Add Account</button>
 
                 <div className="menu">▣ &nbsp; Masters</div>
 
