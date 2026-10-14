@@ -6,8 +6,6 @@ export const getTotalDepartment = () => {
     return departments.length;
 };
 
-
-
 export const getTotalEmployee = () => {
     let totalEmployee = 0;
     departments.forEach(department => {
@@ -15,7 +13,6 @@ export const getTotalEmployee = () => {
     });
     return totalEmployee;
 };
-
 
 export const getTotalPresent = () => {
     let totalPresent = 0;
@@ -40,7 +37,6 @@ export const getDepartmentDetails = (departmentName) => {
             absent: 0
         };
     }
-
 
     const total = department.employees.length;
 

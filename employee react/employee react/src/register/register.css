@@ -1,1 +1,51 @@
+.register-container {
+    min-height: 100vh;
+    padding: 20px;
+    background: #f1f2f6;
+    box-sizing: border-box;
+}
 
+.register-form {
+    width: 350px;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
+    box-sizing: border-box;
+}
+
+.register-form h1 {
+    color: green;
+    text-align: center;
+    font-size: 25px;
+}
+
+.register-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.register-form input,
+.register-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    box-sizing: border-box;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.register-form .back-button {
+    background: #555;
+}

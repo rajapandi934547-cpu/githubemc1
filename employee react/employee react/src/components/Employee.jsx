@@ -7,7 +7,12 @@ import {
     getDepartmentDetails
 } from "../service/Employeeservice";
 
+import { useState } from "react";
+import Register from "../register/from";
+
 function Employee() {
+
+    const [showRegister, setShowRegister] = useState(false);
 
     const totalDepartment = getTotalDepartment();
 
@@ -29,14 +34,15 @@ function Employee() {
             <div className="header">
 
                 <h2>Rednote</h2>
-
                 <span>☰</span>
-
+            <div class="profile">
+                     👨🏻
+             </div>
             </div>
 
             <div className="sidebar">
 
-                <div className="menu active">⌁ &nbsp; Dashboard</div>
+                <button className="menu active" type="button" onClick={() => setShowRegister(true)}> ↪ &nbsp; Add Account</button>
 
                 <div className="menu">▣ &nbsp; Masters</div>
 
@@ -162,7 +168,7 @@ function Employee() {
                 </div>
             </div>
         </>
-    );
+      );
 }
 
 export default Employee;
