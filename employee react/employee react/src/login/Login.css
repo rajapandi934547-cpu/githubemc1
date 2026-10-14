@@ -1,0 +1,61 @@
+ .four{
+    background-color: rgb(252, 228, 208);
+    width: 90%;
+    max-width: 600px;
+    min-height: 600px;
+
+    border: 2px solid rgb(111, 121, 112);
+    border-radius: 10px;
+
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+h4{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    margin-top:50px;
+}
+
+.one{
+    background-color: rgb(25, 25, 194);
+    color: white;
+
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 25px;
+    font-style: inherit;
+
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.three{
+    padding: 30px;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.two input{
+    height: 35px;
+    width: 100%;
+    max-width: 300px;
+
+    margin-top: 80px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border:none;
+    margin-left: 120px;
+
+}
+
+.five{
+    margin-top: 40px;
+    text-align: center;
+}
