@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./register.css";
 
-function Register({ onBack }) {
+function Register({  }) {
     const [formData, setFormData] = useState({
         fname: "",
         lname: "",
@@ -39,80 +39,48 @@ function Register({ onBack }) {
             gender: "Male"
         });
     }
+
     return (
+       <>
+         
         <div className="register-container">
+
             <form className="register-form" onSubmit={handleSubmit}>
+
                 <h1>Registration Form</h1>
 
-                <label>First Name:</label>
+                <label>Deportment Name:</label>
                 <input
                     type="text"
                     name="fname"
-                    value={formData.fname}
                     onChange={handleChange}
                     required/>
 
-                <label>Last Name:</label>
+                <label>Name:</label>
                 <input
                     type="text"
                     name="lname"
-                    value={formData.lname}
                     onChange={handleChange}
                     required/>
 
-                <label>Email:</label>
-                <input
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required/>
-
-                <label>Password:</label>
-                <input
-                    type="password"
-                    name="password"
-                    value={formData.password}
-                    onChange={handleChange}
-                    required/>
-
-                <label>Re-type Password:</label>
-                <input
-                    type="password"
-                    name="repassword"
-                    value={formData.repassword}
-                    onChange={handleChange}
-                    required/>
-
-                <label>Contact:</label>
+                <label>Designation:</label>
                 <input
                     type="text"
-                    name="contact"
-                    value={formData.contact}
+                    name="fname"
                     onChange={handleChange}
                     required/>
 
-                <label>Gender:</label>
-                <select
-                    name="gender"
-                    value={formData.gender}
-                    onChange={handleChange}>
-
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                    <option value="Other">Other</option>
-                </select>
+                <label>Status:</label>
+                <input
+                    type="text"
+                    name="lname"
+                    onChange={handleChange}
+                    required/>
 
                 <button type="submit">Submit</button>
-
-                <button
-                    type="button"
-                    className="back-button"
-                    onClick={onBack}>
-                    Back to Dashboard
-                </button>
             </form>
         </div>
+        </>
     );
 }
 export default Register;

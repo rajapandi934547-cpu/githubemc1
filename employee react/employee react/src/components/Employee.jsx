@@ -28,9 +28,9 @@ function Employee() {
 
     const marketing = getDepartmentDetails("Marketing");
 
-    return (
-        <>
+    return(
 
+        <>
             <div className="header">
 
                 <h2>Rednote</h2>
@@ -63,7 +63,7 @@ function Employee() {
             </div>
 
             <div className="main">
-
+                {showRegister && (<Register />)}
                 <div className="employee-boxes">
 
                     <div className="box total">
@@ -83,8 +83,8 @@ function Employee() {
                 </div>
             </div>
 
-            <div className="main">
-
+            <div className="main"> 
+                
                 <h3>TOTAL DEPARTMENT</h3>
 
                 <div className="employee-boxes">
