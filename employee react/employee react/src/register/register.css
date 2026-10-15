@@ -3,6 +3,7 @@
     padding: 20px;
     background: #f1f2f6;
     box-sizing: border-box;
+    margin-top: 50px;
 }
 
 .register-form {
@@ -10,7 +11,7 @@
     max-width: 100%;
     margin: 20px auto;
     padding: 25px;
-    border: 2px solid black;
+    border: 2px solid rgb(107, 97, 97);
     border-radius: 10px;
     background: white;
     box-sizing: border-box;
@@ -46,6 +47,3 @@
     cursor: pointer;
 }
 
-.register-form .back-button {
-    background: #555;
-}
